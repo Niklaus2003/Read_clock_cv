@@ -35,16 +35,16 @@ pip install matplotlib imutils
 
 ## Usage
 
-Run the main script and pass an image path:
+Run the main script and pass an image path inside the code:
 
 ```bash
-python read_clock.py <path-to-clock-image>
+python read_clock.py
 ```
 
 Example:
 
 ```bash
-python read_clock.py images/clock1.jpg
+python read_clock.py 
 ```
 
 The script will attempt to detect the clock center and hands, output the inferred time to the terminal, and display the annotated image with detected hands overlaid.
