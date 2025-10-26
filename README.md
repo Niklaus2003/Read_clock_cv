@@ -38,12 +38,6 @@ pip install matplotlib imutils
 Run the main script and pass an image path inside the code:
 
 ```bash
-python read_clock.py
-```
-
-Example:
-
-```bash
 python read_clock.py 
 ```
 
